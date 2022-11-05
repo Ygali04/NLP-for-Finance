@@ -1,6 +1,4 @@
-import Dataset
-import Preprocess
-import FinanceNetwork
+from Model import Dataset, Preprocess, FinanceNetwork
 
 training_loss = history.history['loss']
 validation_loss = history.history["val_loss"]
